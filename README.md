@@ -1,7 +1,7 @@
 # bitRank
 optional usage of storage ( for AVR's or Arduino )
 
-In almost Arduino boards like UNO, micro, nano etc. provided not enough RAM therefore you cannot write big project. This lib is written to a litle bit change this situation, and it at least give opportunity for writing regarding big cellular automata or just reduce memory using due storing 8 bool in one byte. 
+Almost all Arduino boards like UNO, micro, nano etc, provided not enough RAM therefore you cannot write big project. This lib is written to a litle bit change this situation, and it at least give opportunity for writing regarding big cellular automata or just reduce memory using due storing 8 bool in one byte. 
 
 Here is simple instance of usage:
 
