@@ -12,4 +12,4 @@ cout << test[9] << endl; //chek it
 
 ```
 
-In the future I want to extending this project and add new futures if you intersting you would be upport me and join our (chat https://t.me/fulcanellydev) in telegram 
+In the future I want to extending this project and add new futures if you intersting you would be upport me and join our [chat]( https://t.me/fulcanellydev) in telegram 
