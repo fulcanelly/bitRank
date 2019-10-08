@@ -1,6 +1,4 @@
 
-using namespace std;
-
 /*
 Usage:
 bitrank name( size ) - to create obj of size times bits
