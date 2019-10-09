@@ -11,6 +11,6 @@ cout << test[9] << endl; //chek it
 
 ```
 
-In the future I want to extend this project and add new futures. If you are intersting you can support me and join our [chat]( https://t.me/fulcanellydev) in telegram.
+In the future I want to extend this project and add new futures. If you are intersted you can support me and join our [chat]( https://t.me/fulcanellydev) in telegram.
 
 PS: sorry for mistakes.
