@@ -28,11 +28,6 @@ struct bitrank {
                 throw;
         }
 
-        template<class A>
-        inline A min(A a, A b) {
-            return (a > b) ? b : a;
-        }
-
     public:
         const char charMaximum = 255;
 
@@ -44,7 +39,7 @@ struct bitrank {
         }
 
         ~bitrank() {
-           delete data;
+           delete [] data;
         }
 
         bool operator[](int index) {
@@ -81,7 +76,7 @@ struct bitrank {
             //calculating new size 
             int newByteSize = toByte(newBitSize);
             //find minimum size for copy first obj to other
-            int minSize = min(newByteSize * 8, size);
+            int minSize = (newByteSize * 8 < size) ? newByteSize * 8 : size;
             //changing size varible
             this->size = newByteSize * 8;
             //create new arr
@@ -92,7 +87,7 @@ struct bitrank {
                 newArr[i] = data[i];
 
             //delete old set 
-            delete data;
+            delete [] data;
             //set new
             data = newArr;
             return newByteSize;
